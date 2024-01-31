@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deterministic Finite Automata - 2023.2</title>
+    <!-- <title>Cruzamento com semáforos</title> -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Deterministic Finite Automata - Group: Matheus Ryan, Lucas Heron, Vinícius Neitzke - 2023.2</h1>
+
+    <div class="content">
+        <canvas id="canvas" width="1000px" height="1000px">
+            Seu navegador não tem suporte ao canvas
+        </canvas>
+
+        <div class="buttons">
+            <button id="place">Place</button>
+            <!-- <span style="margin: 10px;">Qual semáforo ficará <strong style="color: green">verde</strong> primeiro?</span> -->
+            <select id="semaforoInicial">
+                <!-- <option value="green" selected>1 semaforo</option> -->
+                <!-- <option value="red">2 semaforo</option> -->
+            </select>
+            <button id="comecar" style="margin-left: 0px;">Iniciar</button>
+            <img id="image" src="./SVG-AUTOMATO/2.png" height="310">
+            <img id="image" src="./src/source.png">
+        </div>
+        
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.buttons {
+    display: block;
+
+}
+
+img {
+    width: 600px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.content > button {
+    height: 70px;
+}
+
+.content > select {
+    height: 50px;
+    margin-left: 50px;
+}
+
+.content > canvas {
+    width: 90%;
+    height: 100vh;
+    background-color: burlywood;
+}
