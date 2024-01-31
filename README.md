@@ -23,4 +23,4 @@ Group:
 ## Our semaphore:
 <p align="center">
   <img id="image" src="./SVG-AUTOMATO/1.png" height="510">
-<\p>
+
